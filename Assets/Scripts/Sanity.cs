@@ -22,7 +22,7 @@ public class Sanity : MonoBehaviour
         if(sanity < 10 && created == false)
         {
             Instantiate(fakeObject);
-            created = !created;
+            created = !created;  
         }
     }
     public void UpdateSanity(float amount)
