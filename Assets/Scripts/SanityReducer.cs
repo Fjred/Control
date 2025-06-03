@@ -10,7 +10,6 @@ public class SanityReducer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("NIGA");
         if (collision.gameObject.CompareTag("Player") && over ==0)
         {
             sanity.UpdateSanity(-10);
